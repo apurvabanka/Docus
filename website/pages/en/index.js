@@ -64,7 +64,7 @@ class HomeSplash extends React.Component {
         <div className="inner">
           <ProjectTitle tagline={siteConfig.tagline} title={siteConfig.title} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
+            <Button href="#try">Try It Out Now</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
           </PromoSection>
@@ -97,8 +97,7 @@ class Index extends React.Component {
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
         <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-        <MarkdownBlock>This is a change I made recently.</MarkdownBlock>
+        <MarkdownBlock>These are features of this project. This is a recent addition.</MarkdownBlock>
       </div>
     );
 
@@ -144,6 +143,7 @@ class Index extends React.Component {
           },
         ]}
       </Block>
+      
     );
 
     const Features = () => (
@@ -151,7 +151,7 @@ class Index extends React.Component {
         {[
           {
             content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            image: `${baseUrl}img/rabit.svg`,
             imageAlign: 'top',
             title: 'Feature One',
           },
@@ -185,6 +185,7 @@ class Index extends React.Component {
         <div className="productShowcaseSection paddingBottom">
           <h2>Who is Using This?</h2>
           <p>This project is used by all these people</p>
+          <div className="logos">{showcase}</div>
           <div className="logos">{showcase}</div>
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
