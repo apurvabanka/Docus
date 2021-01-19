@@ -1,10 +1,15 @@
 ---
 id: doc1
-title: Latin-ish
+title: Perdicto
 sidebar_label: Example Page
 ---
 
 Check the [documentation](https://docusaurus.io) for how to use Docusaurus.
+
+
+## Intro
+
+This website contains the information about the data in the repo.
 
 ## Lorem
 

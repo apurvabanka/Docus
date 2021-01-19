@@ -1,6 +1,6 @@
 ---
 id: doc4
-title: Other Document
+title: GET Request
 ---
 
-this is another document
+In order to get data this endpoint is used which provides the data in the DB.

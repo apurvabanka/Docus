@@ -98,6 +98,7 @@ class Index extends React.Component {
         style={{textAlign: 'center'}}>
         <h2>Feature Callout</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <MarkdownBlock>This is a change I made recently.</MarkdownBlock>
       </div>
     );
 
